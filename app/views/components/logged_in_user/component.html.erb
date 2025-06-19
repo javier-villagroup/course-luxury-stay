@@ -1,0 +1,9 @@
+<div>
+    <% if user.present? %>
+        <div class="w-10 h-10 bg-amber-500 rounded-full">
+        </div>
+        <%= user.email %>
+    <% else %>
+        LoggedOut
+    <% end %>
+</div>

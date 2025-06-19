@@ -1,0 +1,8 @@
+<div class="bg-blue-200 ">
+    <%= component("ContentWrapper") do %>
+        <div class="flex justify-between py-4">
+            <span class="text-amber-500 text-3xl font-bold">Luxury Stay</span>
+            <%= component("LoggedInUser", user: Current.user) %>
+        </div>
+    <%end%>
+</div>
