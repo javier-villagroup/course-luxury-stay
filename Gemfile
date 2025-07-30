@@ -70,6 +70,6 @@ gem "pundit", "~> 2.5"
 
 gem "esbuild-rails", "~> 0.1.4"
 
-gem "view_component", "~> 3.23"
+gem "view_component", "~> 4.0"
 gem "view_component-contrib", "~> 0.2.4"
 gem "dry-initializer", "~> 3.1"
